@@ -1,0 +1,208 @@
+*{ /* config para a página toda */
+	margin: 0px; /* margem externa do site inteiro zerado */
+	padding: 0px; /* margem interna do site inteiro zerado */
+}
+
+body{
+	font-family: "Calibri", Helvetica, Arial
+}
+
+header{
+	width: 100%; /* tamando do header considerando a config responsiva */
+	height: 70px;
+	background-color: #e28f2e; /*laranja*/
+	position: fixed;
+}
+
+/* ###### MENU ###### */
+
+nav{ /* estilo da barra de navegação. famoso MENU */
+	height: 70px; /* tamanho vertical do menu */
+	font-size: 19px; /* tamanho da fonte */
+}
+
+nav ul{ /* estilo da lista, nav e ul estão concatenadas, apenas as ul dentro da nav irão receber o comando */
+	list-style-type: none;
+}
+
+nav li{ 
+	float: left; /* configurar o menu para horizontal */
+	margin-left: 5px;
+	padding: 5px 10px; /* margem interna cima/baixa 5px e direita esquerda 10px */
+	color: white; /*cor das palavras do menu */
+	font-weight: bold; /* fonte em negretio */
+	line-height: 3.2; /* tamanho da altura da linha */
+}
+
+nav ul .BOTAO:hover{ /* config mouse sobre, quando se passa o mouse */
+	background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+.logo{ /*config logo */
+	float: left;
+	margin: 10px 20px 25px 15px;
+}
+
+/* ###### CONTEÚDO - HOME PAGE ###### */
+
+
+main{ /*estilo do conteúdo principal */
+	width: 1000px;
+	height: 600px;
+	margin: 0 auto; /* margem do conteúdo */
+}
+
+#banner_img{
+	width: 1000px;
+	height: 300px;
+	float: left;
+	margin-top: 70px;
+	margin-bottom: 10px;
+}
+
+.fotoshome{
+	float: left;
+	width: 50%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.conteudo{
+	float:left;
+}
+
+article{
+	margin-bottom: 10px;
+	text-align: justify; /*formatação do texto justificada */
+}
+
+/* ##### RODAPÉ ##### */
+
+footer{
+	clear: both; /* tag para evitar que o radapé pegue o estilo das outras sessões */
+	background-color: #e28f2e;
+	color: white;
+	text-align: center;
+	padding: 30px 0 ;
+}
+
+/* ##### SOBRE ##### */
+
+.fotossobre{
+	float: left;
+	width: 20%;
+	height: 160px;
+	
+}
+
+.asobre{
+	width: 80%;
+	height: 145px;
+	float: left;
+	padding-top: 15px;
+}
+
+.fotossobre1{
+	float: right;
+	width: 20%;
+	height: 160px;
+	text-align: right;
+
+}
+
+.asobre1{
+	 
+	width: 80%;
+	height: 145px;
+	padding-top: 35px;
+	float: right;
+	
+}
+
+
+/* ##### CONTANTO ##### */
+
+#mapa{
+	margin-top: 70px
+}
+
+#info{
+	width: 370px;
+	float: left
+}
+
+#formulario{
+	width: 600px;
+	float: right;
+	
+	
+}
+
+#formulario label{
+	font-size: 18px;
+}
+
+#formulario div input{
+	background-color: #fae5cc;
+	border: 1px solid #f2c085;
+	width: 598px;
+	height: 28px;
+	font-size: 15px;
+}
+
+#formulario div textarea{
+	background-color: #fae5cc;
+	border: 1px solid #f2c085;
+	width: 598px;
+	height: 60px;
+	font-size: 15px;
+	resize: none;
+
+}
+
+#formulario .BOTAO{
+	width: 85px;
+	height: 30px;
+	font-size: 16px;
+	color: #fff;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	float: right;
+}
+
+#ENVIAR{
+	background-color: darkgreen;
+	border: 1px solid #8bac7f;
+	cursor: pointer;
+}
+
+#LIMPAR {
+	background-color: red;
+	border: 1px solid #b89898;
+}
+
+#formulario h2{
+	font-size: 22px;
+	color: orange;
+	text-align: center;
+	margin: 36px 0;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+/* ##### CONTANTO ##### */
+
+.galeria{
+	margin: 10px;
+	text-align: center;
+	
+}
+
+.galeria img{
+	padding: 20px;
+}
+
